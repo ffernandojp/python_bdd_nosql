@@ -1,0 +1,130 @@
+.main-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 50px;
+}
+
+.div-title {
+  display: flex;
+  text-align: left;
+  font-weight: 800;
+  font-size: large;
+  margin-top: 20px;
+}
+
+.main-div {
+  display: flex;
+  width: 70%;
+  margin: 0 auto
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.btn-delete {
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: red;
+  color: white;
+  transition-duration: 300ms;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input {
+  width: 80%;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 50px 40px 50px;
+  margin: 15px;
+  width: 300px;
+  height: fit-content;
+}
+
+.btn-submit {  
+  margin-top: 10px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: green;
+  color: white;
+  transition-duration: 300ms;
+}
+
+.btn-return {
+  margin-top: 20px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: smaller;
+}
+.btn-return:hover {
+  background-color: darkcyan;
+  color: white;
+  transition-duration: 300ms;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.div-episodes-form {
+  align-items: center;
+}
+
+.form-episodes > .form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-episodes > .form-group > select { 
+  width: 60%;
+  height: 35px;
+}
+
+.form-episodes > .form-group > .btn-submit {
+  width: fit-content;
+  margin-top: 0;
+}
+
+.div-episodes {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.div-episodes > ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
