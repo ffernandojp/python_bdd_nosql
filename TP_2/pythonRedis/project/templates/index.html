@@ -9,37 +9,35 @@
 </head>
 
 <body>
-  <h1 class="main-title">Gestion de Personajes</h1>
+  <h1 class="main-title">Gestion de Personajes & Episodios</h1>
   <div class="main-div">
     <div class="left-container">
       <div class="container">
         <p class="div-title">Nuevo personaje:</p>
-        <form action="/agregarPersonaje" method="POST">
-          <div class="form-group">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
-          </div>
-          <div class="form-group">
-            <label for="episodios">Nro. episodios:</label>
-            <input type="number" id="episodios" name="episodios">
-          </div>
-          <input class="btn-submit" type="submit" value="Submit">
-        </form>
+          <form action="/agregarPersonaje" method="POST">
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="form-group">
+              <label for="episodios">Nro. episodio:</label>
+              <input type="number" id="episodios" name="episodios">
+            </div>
+            <input class="btn-submit" type="submit" value="Submit">
+          </form>
       </div>
       <div class="container">
         <div class="div-episodes-form">
-          <p class="div-title">Por episodios:</p>
-          <form class="form-episodes" action="/listarEpisodios" method="POST">
+          <p class="div-title">Por episodio:</p>
+          <form class="form-episodes" action="/listarEpisodiosPersonajes" method="POST">
             <div class="form-group">
 
               {{ episodes | safe }}
 
               <input class="btn-submit" type="submit" value="Buscar">
             </div>
-
+          </form>
         </div>
-
-        </form>
       </div>
 
       {{ list_by_episodes | safe }}
@@ -54,5 +52,15 @@
       </div>
     </div>
   </div>
+
+  <h2 class="serie-title">The Mandalorian:</h2>
+  <div class="main-div">
+    <div class="entire-container">
+      {{ buttonCargar | safe }}
+
+      {{ list_mandalorian | safe }}
+    </div>
+  </div>
 </body>
+
 </html>

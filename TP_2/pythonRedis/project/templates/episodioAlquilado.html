@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <title>Inicio</title>
+</head>
+
+<body>
+  <h1 class="main-title">Episodio alquilado</h1>
+  <div class="div-episodes">
+    <p>Usted ha alquilado el episodio "{{episode}}" por 24 hs:</p>
+    <p style="font-style: italic;">Tiempo restante para su expiracion: {{expireTime}} segundos</p>
+    <btn class="btn-return"><a style="color: white; text-decoration: none; margin-top: 20px;" href="/">Volver al inicio</a></btn>
+  </div>
+</body>
+</html>

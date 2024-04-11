@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <title>Inicio</title>
+</head>
+
+<body>
+  <h1 class="main-title">Personajes por episodios</h1>
+  <div class="div-episodes">
+    <p>Personajes con aparicion en el episodio {{episodes}}:</p>
+    {{list_by_episodes | safe}}
+
+    <btn class="btn-return"><a style="color: white; text-decoration: none;" href="/">Volver al inicio</a></btn>
+  </div>
+</body>
+</html>

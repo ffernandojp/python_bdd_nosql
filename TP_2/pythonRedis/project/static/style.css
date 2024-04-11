@@ -5,6 +5,14 @@
   margin-top: 50px;
 }
 
+.serie-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 50px;
+  margin-bottom: 2px;
+}
+
 .div-title {
   display: flex;
   text-align: left;
@@ -29,7 +37,7 @@ h1 {
   border: none;
   border-radius: 5px;
   padding: 5px;
-  margin-right: 10px;
+  margin-left: 5px;
   cursor: pointer;
 }
 
@@ -58,6 +66,15 @@ h1 {
   height: fit-content;
 }
 
+.entire-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 50px 40px 50px;
+  margin: 15px;
+  width: 80%;
+  height: fit-content;
+}
+
 .btn-submit {  
   margin-top: 10px;
   background-color: darkgreen;
@@ -73,6 +90,58 @@ h1 {
   color: white;
   transition-duration: 300ms;
 }
+
+.btn-reserva {  
+  margin-top: 10px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.btn-reserva:hover {
+  background-color: blue;
+  color: white;
+  transition-duration: 300ms;
+}
+
+.btn-pagar {  
+  margin-top: 10px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.btn-pagar:hover {
+  background-color: orange;
+  color: white;
+  transition-duration: 300ms;
+}
+
+.btn-alquilado {  
+  margin-top: 10px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.btn-alquilado:hover {
+  background-color: green;
+  color: white;
+  transition-duration: 300ms;
+}
+
 
 .btn-return {
   margin-top: 20px;
@@ -102,13 +171,15 @@ ul {
   margin-bottom: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
 .form-episodes > .form-group > select { 
   width: 60%;
   height: 35px;
+  margin-right: 20px;
+
 }
 
 .form-episodes > .form-group > .btn-submit {
@@ -120,6 +191,9 @@ ul {
   width: 70%;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .div-episodes > ul {
@@ -127,4 +201,35 @@ ul {
   list-style-position: inside;
   margin-bottom: 30px;
   margin-right: 50px;
+}
+
+.form-reserva {
+  width: 600px;
+  margin-bottom: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.reserva-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 50px 40px 50px;
+  margin: 15px;
+  width: 500px;
+  height: fit-content;
+  margin-bottom: 10px;
+}
+
+.form-reserva > .form-group input {
+  align-self: center;
+}
+
+.form-reserva > .btn-submit {
+  width: 50%;
+  align-self: center;
+  margin-top: 20px;
 }

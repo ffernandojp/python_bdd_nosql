@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+
+  db-redis:
+    container_name: redis_db_test_python
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+  web-api-flask:
+    container_name: prueba_python_redis
+    build: .
+    
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./project:/project
+    command: sh -c "python app.py"
+    depends_on:
+      - db-redis
