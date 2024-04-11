@@ -288,9 +288,8 @@ def pagarEpisodio():
         connect_db(), "the_mandalorian_episodes", episodio_position
     )
     episodio_name = episodio.split(",")[0]
-    episodio_price = int(episodio.split(",")[1])
 
-    if get_expire_time_episode(connect_db(), episodio_name) < 0:
+    if get_expire_time_episode(connect_db(), episodio_name) > 0:
         set_expire_time_to_episode(connect_db(), episodio_name, "Alquilado")
 
     expire_time = get_expire_time_episode(connect_db(), episodio_name)
