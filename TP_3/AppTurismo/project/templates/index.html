@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <title>Inicio</title>
+</head>
+
+<body>
+  <h1 class="main-title">Puntos de Interes - Turismo</h1>
+  <div class="main-div">
+    <div class="left-container">
+      <div class="container">
+        <form action="/agregarUbicacion" method="POST">
+          <p class="div-title">Mi Ubicacion:</p>
+          <div class="form-group">
+            <label for="mylongitude">Longitud</label>
+            <input type="number" id="mylongitude" value={{longitude}} step="any" max="180" min="-180" name="mylongitude">
+          </div>
+          <div class="form-group">
+            <label for="mylatitude">Latitud</label>
+            <input type="number" id="mylatitude" value={{latitude}} step="any" max="99" min="-99" name="mylatitude">
+          </div>
+          <input class="btn-submit" type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="container">
+        <p class="div-title">Nuevo lugar:</p>
+        <form action="/agregarLugar" method="POST">
+          <div class="form-group">
+            <label for="establecimiento">Nombre establecimiento</label>
+            <input type="text" id="establecimiento" name="establecimiento">
+          </div>
+          <div class="form-group">
+            <label for="grupo">Grupo de pertenencia</label>
+            {{ select_group | safe }}
+          </div>
+          <div class="form-group">
+            <label for="longitude">Longitud</label>
+            <input type="number" id="longitude" step="any" max="180" min="-180" name="longitude">
+          </div>
+          <div class="form-group">
+            <label for="latitude">Latitud</label>
+            <input type="number" id="latitude" step="any" max="99" min="-99" name="latitude">
+          </div>
+          <input class="btn-submit" type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="container">
+        <div class="div-places-form">
+          <p class="div-title">Distancia a:</p>
+          <form class="form-places" action="/distancia_calculada" method="POST">
+            <div class="form-group">
+              <!-- <input type="number" id="mylongitude" value={{longitude}} step="any" max="180" min="-180" name="mylongitude" hidden> -->
+              <!-- <input type="number" id="mylatitude" value={{latitude}} step="any" max="99" min="-99" name="mylatitude" hidden> -->
+              {{ select_places | safe }}
+
+              <input class="btn-submit" type="submit" value="Calcular">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="right-container">
+      <div class="container">
+        <p class="div-title">Puntos de Interes:</p>
+        {{ buttonCargar | safe }}
+
+        {{ puntos_de_interes | safe }}
+
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+
+</html>
