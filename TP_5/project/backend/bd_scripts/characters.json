@@ -1,0 +1,579 @@
+[
+  {
+    "name": "Iron Man",
+    "characterName": "Tony Stark",
+    "yearOfAppearance": 1963,
+    "affiliation": "Marvel",
+    "biography": "Tony Stark is a billionaire inventor and philanthropist who created the Iron Man suit to save his life.",
+    "equipment": [
+      "Iron Man suit"
+    ],
+    "images": [
+      "Iron-Man.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Captain America",
+    "characterName": "Steve Rogers",
+    "yearOfAppearance": 1941,
+    "affiliation": "Marvel",
+    "biography": "Steve Rogers was a weak and scrawny young man who was transformed into a super-soldier during World War II.",
+    "equipment": [
+      "Shield"
+    ],
+    "images": [
+      "Captain-America.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Thor",
+    "characterName": "",
+    "yearOfAppearance": 1962,
+    "affiliation": "Marvel",
+    "biography": "Thor is the God of Thunder and a member of the Asgardian race.",
+    "equipment": [
+      "Mjolnir"
+    ],
+    "images": [
+      "Thor.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Hulk",
+    "characterName": "Bruce Banner",
+    "yearOfAppearance": 1962,
+    "affiliation": "Marvel",
+    "biography": "Bruce Banner is a scientist who transforms into the Hulk when he gets angry.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Hulk.png",
+      "Hulk-Red.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Black Widow",
+    "characterName": "Natasha Romanoff",
+    "yearOfAppearance": 1964,
+    "affiliation": "Marvel",
+    "biography": "Natasha Romanoff is a former KGB spy and assassin who now works for S.H.I.E.L.D.",
+    "equipment": [
+      "Widow's Bite",
+      "Widow's Line"
+    ],
+    "images": [
+      "Black-Widow.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Hawkeye",
+    "characterName": "Clint Barton",
+    "yearOfAppearance": 1964,
+    "affiliation": "Marvel",
+    "biography": "Clint Barton is a master archer and a member of the Avengers.",
+    "equipment": [
+      "Bow and arrows"
+    ],
+    "images": [
+      "Hawkeye.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Spider Man",
+    "characterName": "Peter Parker",
+    "yearOfAppearance": 1962,
+    "affiliation": "Marvel",
+    "biography": "Peter Parker is a high school student who gains spider-like abilities after being bitten by a radioactive spider.",
+    "equipment": [
+      "Web-shooters"
+    ],
+    "images": [
+      "Spider-Man.png",
+      "Spider-Man-symbiote.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Wolverine",
+    "characterName": "James Howlett",
+    "yearOfAppearance": 1974,
+    "affiliation": "Marvel",
+    "biography": "Wolverine is a mutant with enhanced senses, regenerative healing, and retractable claws.",
+    "equipment": [
+      "Adamantium claws"
+    ],
+    "images": [
+      "Wolverine-Blades.png",
+      "Wolverine-Brown-Ver.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Storm",
+    "characterName": "Ororo Munroe",
+    "yearOfAppearance": 1975,
+    "affiliation": "Marvel",
+    "biography": "Storm is a mutant with the ability to control the weather.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Storm.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Deadpool",
+    "characterName": "Wade Wilson",
+    "yearOfAppearance": 1991,
+    "affiliation": "Marvel",
+    "biography": "Deadpool is a mercenary with enhanced healing abilities and a sarcastic personality.",
+    "equipment": [
+      "Katanas",
+      "Guns"
+    ],
+    "images": [
+      "Deadpool.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Scarlet Witch",
+    "characterName": "Wanda Maximoff",
+    "yearOfAppearance": 1964,
+    "affiliation": "Marvel",
+    "biography": "Scarlet Witch is a mutant with the ability to manipulate probability and energy.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Scarlet-Witch.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Vision",
+    "characterName": "",
+    "yearOfAppearance": 1968,
+    "affiliation": "Marvel",
+    "biography": "Vision is an android created by Ultron and later joined the Avengers.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Vision.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Black Panther",
+    "characterName": "T'Challa",
+    "yearOfAppearance": 1966,
+    "affiliation": "Marvel",
+    "biography": "T'Challa is the king of the fictional African nation of Wakanda and the superhero known as Black Panther.",
+    "equipment": [
+      "Vibranium suit"
+    ],
+    "images": [
+      "Black-Panther.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Dr Strange",
+    "characterName": "Stephen Strange",
+    "yearOfAppearance": 1963,
+    "affiliation": "Marvel",
+    "biography": "Stephen Strange is a former neurosurgeon who becomes the Sorcerer Supreme and protects the world from magical threats.",
+    "equipment": [
+      "Cloak of Levitation",
+      "Eye of Agamotto"
+    ],
+    "images": [
+      "Dr-Strange.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Ant-Man",
+    "characterName": "Scott Lang",
+    "yearOfAppearance": 1979,
+    "affiliation": "Marvel",
+    "biography": "Scott Lang is a former thief who becomes the superhero Ant-Man and can shrink in size while increasing his strength.",
+    "equipment": [
+      "Ant-Man suit"
+    ],
+    "images": [
+      "Ant-Man.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Wasp",
+    "characterName": "Hope van Dyne",
+    "yearOfAppearance": 2015,
+    "affiliation": "Marvel",
+    "biography": "Hope van Dyne is the daughter of Hank Pym and the Wasp, a superhero who can shrink in size and fly.",
+    "equipment": [
+      "Wasp suit"
+    ],
+    "images": [
+      "Wasp.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Thanos",
+    "characterName": "Thanos",
+    "yearOfAppearance": 1973,
+    "affiliation": "Marvel",
+    "biography": "Thanos is a powerful Titan who seeks to balance the universe by wiping out half of all life. He is known for his incredible strength and his ability to wield the Infinity Stones.",
+    "equipment": [
+      "Infinity Gauntlet"
+    ],
+    "images": [
+      "Thanos.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Groot",
+    "characterName": "",
+    "yearOfAppearance": 2007,
+    "affiliation": "Marvel",
+    "biography": "Groot is a sentient tree-like creature and a member of the Guardians of the Galaxy.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Groot.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Rocket Raccoon",
+    "characterName": "",
+    "yearOfAppearance": 1976,
+    "affiliation": "Marvel",
+    "biography": "Rocket Raccoon is a genetically engineered raccoon and a member of the Guardians of the Galaxy.",
+    "equipment": [
+      "Guns"
+    ],
+    "images": [
+      "Rocket-Raccoon.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Starfox",
+    "characterName": "Eros",
+    "yearOfAppearance": 1973,
+    "affiliation": "Marvel",
+    "biography": "Eros, also known as Starfox, is an Eternal from Titan and the brother of Thanos. He possesses superhuman strength, durability, and the ability to manipulate the emotions of others.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Starfox.png"
+    ],
+    "house": "Marvel"
+  },
+  {
+    "name": "Superman",
+    "characterName": "Clark Kent",
+    "yearOfAppearance": 1938,
+    "affiliation": "DC",
+    "biography": "Kal-El, also known as Clark Kent, is an alien from the planet Krypton who was sent to Earth as an infant.",
+    "equipment": [
+      "Super strength",
+      "Heat vision",
+      "X-ray vision"
+    ],
+    "images": [
+      "Superman.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Batman",
+    "characterName": "Bruce Wayne",
+    "yearOfAppearance": 1939,
+    "affiliation": "DC",
+    "biography": "Bruce Wayne is a billionaire who witnessed his parents' murder as a child and dedicates his life to fighting crime as Batman.",
+    "equipment": [
+      "Batarangs",
+      "Grappling hook"
+    ],
+    "images": [
+      "Batman.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Wonder Woman",
+    "characterName": "Diana Prince",
+    "yearOfAppearance": 1941,
+    "affiliation": "DC",
+    "biography": "Diana Prince is an Amazon princess and warrior who fights for peace and justice.",
+    "equipment": [
+      "Lasso of Truth",
+      "Bracelets of Submission"
+    ],
+    "images": [
+      "Wonder-Woman.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "The Flash",
+    "characterName": "Barry Allen",
+    "yearOfAppearance": 1956,
+    "affiliation": "DC",
+    "biography": "Barry Allen is a forensic scientist who gains super speed after being struck by lightning.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "The-Flash.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Green Lantern",
+    "characterName": "Hal Jordan",
+    "yearOfAppearance": 1959,
+    "affiliation": "DC",
+    "biography": "Hal Jordan is a test pilot who is chosen to be a member of the Green Lantern Corps.",
+    "equipment": [
+      "Power ring"
+    ],
+    "images": [
+      "Green-Lantern.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Aquaman",
+    "characterName": "Arthur Curry",
+    "yearOfAppearance": 1941,
+    "affiliation": "DC",
+    "biography": "Arthur Curry is the king of Atlantis and has the ability to communicate with marine life.",
+    "equipment": [
+      "Trident"
+    ],
+    "images": [
+      "Aquaman.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Cyborg",
+    "characterName": "Victor Stone",
+    "yearOfAppearance": 1980,
+    "affiliation": "DC",
+    "biography": "Victor Stone is a former athlete who becomes a cyborg after a terrible accident.",
+    "equipment": [
+      "Cybernetic enhancements"
+    ],
+    "images": [
+      "Cyborg.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Mr Freeze",
+    "characterName": "Victor Fries",
+    "yearOfAppearance": 1959,
+    "affiliation": "DC",
+    "biography": "Victor Fries is a former scientist who became obsessed with cryogenics and froze his wife, Nora, to save her from a terminal illness. He later became the villainous Mr. Freeze, using his knowledge of cryogenics to commit crimes and seek revenge against Batman.",
+    "equipment": [
+      "Freeze Gun"
+    ],
+    "images": [
+      "Mr-Freeze.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Red Tornado",
+    "characterName": "John Smith",
+    "yearOfAppearance": 1965,
+    "affiliation": "DC",
+    "biography": "John Smith is a former human who became the android superhero Red Tornado, created by the scientist T.O. Morrow. He possesses superhuman strength, speed, and agility, and can fly using his tornado-like abilities.",
+    "equipment": [
+      "Red Tornado suit"
+    ],
+    "images": [
+      "Red-Tornado.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Shazam",
+    "characterName": "Billy Batson",
+    "yearOfAppearance": 1940,
+    "affiliation": "DC",
+    "biography": "Billy Batson is a young boy who can transform into the adult superhero Shazam by saying the magic word.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Shazam.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Martian Manhunter",
+    "characterName": "J'onn J'onzz",
+    "yearOfAppearance": 1955,
+    "affiliation": "DC",
+    "biography": "J'onn J'onzz is a Martian who has the ability to shape-shift and read minds.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Martian-Manhunter.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Mr Miracle",
+    "characterName": "Scott Free",
+    "yearOfAppearance": 1971,
+    "affiliation": "DC",
+    "biography": "Scott Free is the son of Highfather, the ruler of the New Gods, and the brother of Orion. He is a skilled escape artist and acrobat who uses his abilities to fight against the forces of evil and protect the innocent.",
+    "equipment": [
+      "Lasso of Truth"
+    ],
+    "images": [
+      "Mr-Miracle.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Harley Quinn",
+    "characterName": "Harleen Quinzel",
+    "yearOfAppearance": 1992,
+    "affiliation": "DC",
+    "biography": "Harleen Quinzel is a former psychiatrist who becomes the Joker's girlfriend and a supervillain.",
+    "equipment": [
+      "Mallet",
+      "Popgun"
+    ],
+    "images": [
+      "Harley-Quinn.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Joker",
+    "characterName": "",
+    "yearOfAppearance": 1940,
+    "affiliation": "DC",
+    "biography": "The Joker is Batman's arch-nemesis and a psychopathic criminal mastermind.",
+    "equipment": [
+      "Joker venom",
+      "Acid flower"
+    ],
+    "images": [
+      "Joker.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Plastic Man",
+    "characterName": "Patrick 'Eel' O'Brian",
+    "yearOfAppearance": 1941,
+    "affiliation": "DC",
+    "biography": "Patrick 'Eel' O'Brian was a small-time crook who gained the ability to stretch and shape his body into any form after being doused with a radioactive chemical. He later became the superhero Plastic Man, using his powers to fight crime and protect the innocent.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Plastic-Man.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Catwoman",
+    "characterName": "Selina Kyle",
+    "yearOfAppearance": 1940,
+    "affiliation": "DC",
+    "biography": "Selina Kyle is a cat burglar and occasional love interest of Batman.",
+    "equipment": [
+      "Whip",
+      "Claws"
+    ],
+    "images": [
+      "Catwoman.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Deathstroke",
+    "characterName": "Slade Wilson",
+    "yearOfAppearance": 1980,
+    "affiliation": "DC",
+    "biography": "Slade Wilson, also known as Deathstroke, is a highly skilled mercenary and assassin with enhanced strength, speed, and reflexes. He is known for his cunning intellect, strategic mind, and mastery of various weapons and combat techniques.",
+    "equipment": [
+      "Deathstroke suit",
+      "Assault rifle",
+      "Sword"
+    ],
+    "images": [
+      "Deathstroke.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Penguin",
+    "characterName": "Oswald Cobblepot",
+    "yearOfAppearance": 1941,
+    "affiliation": "DC",
+    "biography": "Oswald Cobblepot is a wealthy businessman and a nemesis of Batman.",
+    "equipment": [
+      "Umbrella",
+      "Fishing rod"
+    ],
+    "images": [
+      "Penguin.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Brainiac",
+    "characterName": "Vril Dox",
+    "yearOfAppearance": 1958,
+    "affiliation": "DC",
+    "biography": "Vril Dox is an alien from the planet Colu who is obsessed with collecting and preserving knowledge. He is known for his advanced technology and his ability to absorb and analyze vast amounts of information.",
+    "equipment": [
+      "Brainiac ship",
+      "Techno-organic enhancements"
+    ],
+    "images": [
+      "Brainiac.png"
+    ],
+    "house": "DC"
+  },
+  {
+    "name": "Deadman",
+    "characterName": "Boston Brand",
+    "yearOfAppearance": 1967,
+    "affiliation": "DC",
+    "biography": "Boston Brand was a circus acrobat who was murdered during a performance. He was given a second chance at life by the Hindu god Rama Kushna, who granted him the ability to possess the bodies of others and solve the mysteries surrounding his own death.",
+    "equipment": [
+      "None"
+    ],
+    "images": [
+      "Deadman.png"
+    ],
+    "house": "DC"
+  }
+]

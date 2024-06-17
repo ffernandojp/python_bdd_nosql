@@ -1,0 +1,65 @@
+docker-compose up
+
+docker exec -it mongo_spa mongosh
+
+
+use admin
+
+db.auth('mongoadmin', 'mongospa')
+
+show dbs
+
+
+# We log into admin
+- docker exec -it mongodb mongosh -u admin -p mongospa
+
+
+
+# We create a user to access from python flask
+- use webapp
+- db.createUser({user: 'apiuser', pwd: 'apipassword', roles: [{role: 'readWrite', db: 'webapp'}]})
+
+
+db.superheroes.find({name: "Hulk"})
+db.superheroes.updateOne({name: "Hulk"}, {$set: { equipment: ["a,b,c"]}})
+
+
+
+
+NEW PROJECT:
+- sudo npm install -g create-react-app
+- npm init react-app frontend
+- cd frontend
+- npm start
+
+
+
+
+
+# The React app can be accessed at http://localhost:3000 
+# and the Flask API at http://localhost:5000/api.
+
+
+
+
+
+# To run the production environment we need to tell Docker to use the non-standard docker-compose-prod.yml file:
+
+# $ docker-compose -f docker-compose-prod.yml up --build
+# This will build and run the containers. The React app can be accessed at http://localhost:3000 
+# and the Flask API on the same port at http://localhost:3000/api.
+
+
+
+# Clean up any existing containers and images by running the following commands:
+# $ docker-compose down
+# $ docker system prune -a
+
+
+
+
+
+
+
+# Delete all volumes 
+docker volume rm $(docker volume ls -q)
